@@ -7,15 +7,13 @@ assignees: ''
 
 ---
 
-### Describe the feature
+### Description
 
 <!--
 Brief description of the behavior that you want including 
 inputs and outputs
 -->
 
-### Implementation suggestions
-
-<!--
-Any details or suggestions on implementation
--->
+### Components
+<!-- Please decompose your issue into bit size chunks of work (think 1 bullet point = 1 commit) -->
+- [ ] <!-- Put each part as a bullet point -->
