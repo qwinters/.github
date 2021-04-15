@@ -12,7 +12,17 @@ branches:
     prefix: feature/
   - label: enhancement
     prefix: feature/
+  - label: documentation
+    prefix: docs/
+  - label: style
+    prefix: style/
+  - label: refactor
+    prefix: refactor/
   - label: question
+    skip: true
+  - label: wont-fix
+    skip: true
+  - label: duplicate
     skip: true
   - label: "*"
     prefix: issue/
