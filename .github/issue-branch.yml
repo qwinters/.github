@@ -1,0 +1,18 @@
+mode: auto
+silent: false
+branchName: "${issue.title}-issue-${issue.number}"
+gitSafeReplacementChar: "-"
+autoCloseIssue: true
+openDraftPR: true
+commitMessage: "chore: Branch ${branchName} created for issue ${issue.number} at ${issue.created_at}"
+branches:
+  - label: bug
+    prefix: fix/
+  - label: feature
+    prefix: feature/
+  - label: enhancement
+    prefix: feature/
+  - label: question
+    skip: true
+  - label: "*"
+    prefix: issue/
