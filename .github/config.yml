@@ -2,3 +2,4 @@ todo:
   keyword: ["@todo"]
   bodyKeyword: ["@todoBody"]
   caseSensitive: true
+  label: [todo, backlog]
